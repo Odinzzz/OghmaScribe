@@ -1,0 +1,1 @@
+console.log('OghmaScribe | Hello Wolrd!')
