@@ -1,18 +1,23 @@
 {
+    "id": "OghmaScribe",
     "name": "OghmaScribe",
     "title": "Oghma Scribe",
     "description": "A module that enhances journaling capabilities in Foundry VTT, inspired by the wisdom of Oghma, the god of knowledge.",
-    "version": "0.0.1",
     "authors": [
-      {
-        "name": "Odinz"
-      }
+        {
+            "name": "Odinz"
+        }
     ],
+    "version": "0.0.1",
     "minimumCoreVersion": "0.8.8",
     "compatibleCoreVersion": "11",
     "system": [],
-    "scripts": [],
-    "esmodules": ["module/OghmaScribe.js"],
+    "scripts": [ "scripts/hello.js" ],
+    "esmodules": [
+        "module/OghmaScribe.js",
+        "module/makejournalentry.js",
+        "module/folder.js"
+    ],
     "styles": ["styles/OghmaScribe.css"],
     "languages": [
       {
@@ -26,13 +31,13 @@
     "readme": "README.md",
     "changelog": "CHANGELOG.md",
     "license": "LICENSE",
-    "manifest": "https://your-url-here.com/OghmaScribe/module.json",
-    "download": "https://your-url-here.com/OghmaScribe/OghmaScribe.zip",
-    "bugs": "https://your-url-here.com/issues",
+    "manifest": "https://github.com/Odinzzz/OghmaScribe/blob/main/module.json",
+    "download": "https://github.com/Odinzzz/OghmaScribe/archive/refs/heads/main.zip",
+    "bugs": "https://github.com/Odinzzz/OghmaScribe/issues",
     "flags": {
-      "OghmaScribe": {
-        "someSetting": true
-      }
+        "OghmaScribe": {
+            "someSetting": true
+        }
     }
   }
   
