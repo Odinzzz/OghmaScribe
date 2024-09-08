@@ -5,7 +5,7 @@
     "description": "A module that enhances journaling capabilities in Foundry VTT, inspired by the wisdom of Oghma, the god of knowledge.",
     "authors": [
         {
-            "name": "Odinz"
+            "name": "Odinzzz"
         }
     ],
     "version": "0.0.1",
@@ -31,7 +31,7 @@
     "readme": "README.md",
     "changelog": "CHANGELOG.md",
     "license": "LICENSE",
-    "manifest": "https://github.com/Odinzzz/OghmaScribe/blob/main/module.json",
+    "manifest": "https://github.com/Odinzzz/OghmaScribe/raw/main/module.json",
     "download": "https://github.com/Odinzzz/OghmaScribe/archive/refs/heads/main.zip",
     "bugs": "https://github.com/Odinzzz/OghmaScribe/issues",
     "flags": {
